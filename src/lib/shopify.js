@@ -5,13 +5,13 @@ const API_VERSION = '2024-01';
 const PLACEHOLDER_PRODUCTS = [
   {
     id: 'put-that-sofa-tee',
-    title: 'Put That Ash In The Sofa Tee',
+    title: 'Put That Ah On The Sofa Tee',
     handle: 'put-that-sofa-tee',
-    description: '"Put That Ash In The Sofa" couple graphic tee. White oversized fit, premium cotton.',
+    description: '"Put That Ah On The Sofa" couple graphic tee. White oversized fit, premium cotton.',
     priceRange: { minVariantPrice: { amount: '36.00', currencyCode: 'USD' } },
     images: [
-      { url: '/images/put-that-sofa-tee-studio.png', altText: 'Put That Ash In The Sofa Tee - Studio' },
-      { url: '/images/put-that-sofa-tee.png', altText: 'Put That Ash In The Sofa Tee' },
+      { url: '/images/put-that-sofa-tee-studio.png', altText: 'Put That Ah On The Sofa Tee - Studio' },
+      { url: '/images/put-that-sofa-tee.png', altText: 'Put That Ah On The Sofa Tee' },
     ],
     variants: [
       { id: 'v26', title: 'S', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
