@@ -330,7 +330,7 @@ function HomePage({ products }) {
       {/* HERO */}
       <section className="hero">
         <div className="hero-media">
-          <video src="/images/hero-video.mp4" autoPlay muted loop playsInline />
+          <video src="/images/street-video.mp4" autoPlay muted loop playsInline />
           <div className="hero-gradient" />
         </div>
         <motion.div
@@ -374,7 +374,7 @@ function HomePage({ products }) {
       {/* SPREAD — The Merch */}
       <section className="spread">
         <div className="spread-img">
-          <img src="/images/kitchens-cookin-jacket.png" alt="The Kitchen's Cookin' Jacket" loading="lazy" />
+          <video src="/images/hero-video.mp4" autoPlay muted loop playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <motion.div
           className="spread-text"
