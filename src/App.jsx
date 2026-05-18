@@ -470,7 +470,7 @@ function HomePage({ products }) {
           <img src="/images/bad-breath-hoodie-dock.png" alt="Bad Breath Hoodie" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/IMG_0504.JPG" alt="Club Dreams" loading="lazy" />
+          <img src="/images/put-that-sofa-tee.png" alt="Put That Sofa Tee" loading="lazy" />
         </div>
         <div className="photo-grid-item tall">
           <img src="/images/chef-stef-tee-city.png" alt="Chef Stef Tee" loading="lazy" />
@@ -500,7 +500,7 @@ function HomePage({ products }) {
           </Link>
         </motion.div>
         <div className="spread-img">
-          <img src="/images/IMG_0517.PNG" alt="Stef NYC" loading="lazy" />
+          <img src="/images/IMG_0503.JPG" alt="Stef NYC" loading="lazy" />
         </div>
       </section>
 
@@ -679,7 +679,7 @@ function AboutPage() {
 
       <section className="spread">
         <div className="spread-img">
-          <img src="/images/IMG_0517.PNG" alt="Stef NYC" loading="lazy" />
+          <img src="/images/IMG_0503.JPG" alt="Stef NYC" loading="lazy" />
         </div>
         <div className="spread-text" style={{ alignItems: 'center', textAlign: 'center' }}>
           <h2 style={{ fontFamily: "'Bebas Neue', cursive", fontSize: 48, letterSpacing: 4, marginBottom: 12 }}>STEF'S KITCHEN</h2>
@@ -696,19 +696,19 @@ function AboutPage() {
           <img src="/images/IMG_0503.JPG" alt="NYC" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/IMG_0514.PNG" alt="Colorful" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0511.PNG" alt="Paint wall" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0516.PNG" alt="Neon room" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0518.PNG" alt="NYC night" loading="lazy" />
+          <img src="/images/IMG_0504.JPG" alt="Club Dreams" loading="lazy" />
         </div>
         <div className="photo-grid-item">
           <img src="/images/IMG_0509.PNG" alt="Studio" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/IMG_0521.PNG" alt="Empire studio" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/kitchens-cookin-jacket.png" alt="Jacket" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/bad-breath-hoodie-studio.png" alt="Hoodie" loading="lazy" />
         </div>
       </div>
     </>
@@ -756,7 +756,7 @@ function BookPage() {
             </div>
           </div>
           <div className="book-img">
-            <img src="/images/IMG_0524.PNG" alt="Stef making jingle" />
+            <img src="/images/IMG_0509.PNG" alt="Stef in the studio" />
           </div>
         </div>
 
