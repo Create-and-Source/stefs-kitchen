@@ -130,7 +130,7 @@
 
 /* ═══ HERO ═══ */
 .hero {
-  height: 60vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1243,7 +1243,7 @@
   .header-inner { padding: 14px 16px; }
   .header-logo { font-size: 18px; letter-spacing: 2px; }
 
-  .hero { align-items: center; height: 50vh; }
+  .hero { align-items: center; }
   .hero-inner {
     padding: 0 24px;
     text-align: center;
