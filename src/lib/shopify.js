@@ -95,7 +95,10 @@ const PLACEHOLDER_PRODUCTS = [
     handle: 'put-that-sofa-tee',
     description: '"Put That Ash In The Sofa" couple graphic tee. White oversized fit, premium cotton.',
     priceRange: { minVariantPrice: { amount: '36.00', currencyCode: 'USD' } },
-    images: [{ url: '/images/put-that-sofa-tee.png', altText: 'Put That Ash In The Sofa Tee' }],
+    images: [
+      { url: '/images/put-that-sofa-tee.png', altText: 'Put That Ash In The Sofa Tee' },
+      { url: '/images/put-that-sofa-tee-studio.png', altText: 'Put That Ash In The Sofa Tee - Studio' },
+    ],
     variants: [
       { id: 'v26', title: 'S', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
       { id: 'v27', title: 'M', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
