@@ -9,7 +9,10 @@ const PLACEHOLDER_PRODUCTS = [
     handle: 'the-kitchens-cookin-jacket',
     description: '"The Kitchen\'s Cookin\'" back graphic with neon mixer, lightning bolts, and "Home Studio Vibes" tagline. Black heavyweight jacket. NYC energy.',
     priceRange: { minVariantPrice: { amount: '68.00', currencyCode: 'USD' } },
-    images: [{ url: '/images/kitchens-cookin-jacket.png', altText: "The Kitchen's Cookin' Jacket" }],
+    images: [
+      { url: '/images/kitchens-cookin-jacket.png', altText: "The Kitchen's Cookin' Jacket" },
+      { url: '/images/kitchens-cookin-jacket-nyc.png', altText: "The Kitchen's Cookin' Jacket - NYC Street" },
+    ],
     variants: [
       { id: 'v1', title: 'S', price: { amount: '68.00', currencyCode: 'USD' }, availableForSale: true },
       { id: 'v2', title: 'M', price: { amount: '68.00', currencyCode: 'USD' }, availableForSale: true },
@@ -28,6 +31,8 @@ const PLACEHOLDER_PRODUCTS = [
     images: [
       { url: '/images/bad-breath-hoodie-studio.png', altText: 'Bad Breath Kickback Hoodie - Studio' },
       { url: '/images/bad-breath-hoodie-dock.png', altText: 'Bad Breath Kickback Hoodie - Dock' },
+      { url: '/images/bad-breath-hoodie-dock-couple.png', altText: 'Bad Breath Kickback Hoodie - Dock Couple' },
+      { url: '/images/bad-breath-hoodie-studio-woman.png', altText: 'Bad Breath Kickback Hoodie - Studio Woman' },
     ],
     variants: [
       { id: 'v6', title: 'S', price: { amount: '58.00', currencyCode: 'USD' }, availableForSale: true },
@@ -44,7 +49,10 @@ const PLACEHOLDER_PRODUCTS = [
     handle: 'chef-stef-still-cookin-tee',
     description: '"Chef Stef — Still Cookin\'" neon back graphic with chrome microphone, "Jingle King" badge, and city skyline. Black premium cotton tee.',
     priceRange: { minVariantPrice: { amount: '38.00', currencyCode: 'USD' } },
-    images: [{ url: '/images/chef-stef-tee-city.png', altText: "Chef Stef Still Cookin' Tee" }],
+    images: [
+      { url: '/images/chef-stef-tee-city.png', altText: "Chef Stef Still Cookin' Tee" },
+      { url: '/images/chef-stef-tee-bridge.png', altText: "Chef Stef Still Cookin' Tee - Bridge" },
+    ],
     variants: [
       { id: 'v11', title: 'S', price: { amount: '38.00', currencyCode: 'USD' }, availableForSale: true },
       { id: 'v12', title: 'M', price: { amount: '38.00', currencyCode: 'USD' }, availableForSale: true },
@@ -60,7 +68,10 @@ const PLACEHOLDER_PRODUCTS = [
     handle: 'the-kitchen-is-open-tee',
     description: '"THE KITCHEN IS OPEN" bold block print. Cream oversized tee. Hooks, Hotlines, Holy Ground.',
     priceRange: { minVariantPrice: { amount: '34.00', currencyCode: 'USD' } },
-    images: [{ url: '/images/kitchen-is-open-tee.png', altText: 'The Kitchen Is Open Tee' }],
+    images: [
+      { url: '/images/kitchen-is-open-tee.png', altText: 'The Kitchen Is Open Tee' },
+      { url: '/images/kitchen-is-open-tee-night.png', altText: 'The Kitchen Is Open Tee - Night Street' },
+    ],
     variants: [
       { id: 'v16', title: 'S', price: { amount: '34.00', currencyCode: 'USD' }, availableForSale: true },
       { id: 'v17', title: 'M', price: { amount: '34.00', currencyCode: 'USD' }, availableForSale: true },
@@ -79,6 +90,8 @@ const PLACEHOLDER_PRODUCTS = [
     images: [
       { url: '/images/too-blessed-tee-studio.png', altText: 'Too Blessed Tee - Studio' },
       { url: '/images/too-blessed-tee-club.png', altText: 'Too Blessed Tee - Club' },
+      { url: '/images/too-blessed-tee-mixing.png', altText: 'Too Blessed Tee - Mixing Desk' },
+      { url: '/images/too-blessed-tee-neon.png', altText: 'Too Blessed Tee - Neon Club' },
     ],
     variants: [
       { id: 'v21', title: 'S', price: { amount: '34.00', currencyCode: 'USD' }, availableForSale: true },
