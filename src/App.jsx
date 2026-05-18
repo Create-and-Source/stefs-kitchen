@@ -330,7 +330,7 @@ function HomePage({ products }) {
       {/* HERO */}
       <section className="hero">
         <div className="hero-media">
-          <img src="/images/IMG_0503.JPG" alt="" />
+          <video src="/images/hero-video.mp4" autoPlay muted loop playsInline />
           <div className="hero-gradient" />
         </div>
         <motion.div
