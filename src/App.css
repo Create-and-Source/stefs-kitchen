@@ -526,6 +526,52 @@
   }
 }
 
+/* ─── Music Section ─── */
+.music-section {
+  text-align: center;
+  background: var(--bg);
+}
+
+.music-embed {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  border: 1px solid var(--gray-dim);
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.music-embed iframe {
+  display: block;
+}
+
+.music-platforms {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.music-platform-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border: 1px solid var(--gray-dim);
+  color: var(--white-dim);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.music-platform-link:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+  box-shadow: 0 0 20px var(--purple-glow);
+}
+
 /* ─── Viral Section ─── */
 .viral-section {
   position: relative;

@@ -390,6 +390,53 @@ function StorySection() {
   );
 }
 
+/* ─── Music / SoundCloud Section ─── */
+function MusicSection() {
+  return (
+    <section className="section music-section">
+      <Reveal>
+        <div className="section-header">
+          <span className="section-tag">LISTEN</span>
+          <h2 className="section-title">HEAR WHAT'S COOKIN'</h2>
+          <p className="section-desc">
+            Stream $tef the Chef on all platforms. From "Stargazer" to viral jingles —
+            the kitchen never closes.
+          </p>
+        </div>
+      </Reveal>
+      <Reveal delay={0.1}>
+        <div className="music-embed">
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameBorder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stef-todd&color=%239B5DE5&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
+            title="SoundCloud Player"
+          />
+        </div>
+      </Reveal>
+      <Reveal delay={0.2}>
+        <div className="music-platforms">
+          <a href="https://soundcloud.com/stef-todd" target="_blank" rel="noopener noreferrer" className="music-platform-link">
+            <Headphones size={20} />
+            <span>SoundCloud</span>
+          </a>
+          <a href="https://www.youtube.com/@stefan.toddbusiness" target="_blank" rel="noopener noreferrer" className="music-platform-link">
+            <Tv size={20} />
+            <span>YouTube</span>
+          </a>
+          <a href="https://www.tiktok.com/@stefisthechef" target="_blank" rel="noopener noreferrer" className="music-platform-link">
+            <Music size={20} />
+            <span>TikTok</span>
+          </a>
+        </div>
+      </Reveal>
+    </section>
+  );
+}
+
 /* ─── Viral Moment / Social Proof ─── */
 function ViralSection() {
   return (
@@ -570,6 +617,7 @@ function HomePage({ products }) {
       <FeaturedDrop products={products} />
       <CollectionCards />
       <StorySection />
+      <MusicSection />
       <ViralSection />
       <JingleCTA />
       <AllProducts products={products} />
