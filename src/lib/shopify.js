@@ -4,6 +4,25 @@ const API_VERSION = '2024-01';
 
 const PLACEHOLDER_PRODUCTS = [
   {
+    id: 'put-that-sofa-tee',
+    title: 'Put That Ash In The Sofa Tee',
+    handle: 'put-that-sofa-tee',
+    description: '"Put That Ash In The Sofa" couple graphic tee. White oversized fit, premium cotton.',
+    priceRange: { minVariantPrice: { amount: '36.00', currencyCode: 'USD' } },
+    images: [
+      { url: '/images/put-that-sofa-tee-studio.png', altText: 'Put That Ash In The Sofa Tee - Studio' },
+      { url: '/images/put-that-sofa-tee.png', altText: 'Put That Ash In The Sofa Tee' },
+    ],
+    variants: [
+      { id: 'v26', title: 'S', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
+      { id: 'v27', title: 'M', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
+      { id: 'v28', title: 'L', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
+      { id: 'v29', title: 'XL', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
+      { id: 'v30', title: 'XXL', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
+    ],
+    tags: ['featured'],
+  },
+  {
     id: 'the-kitchens-cookin-jacket',
     title: "The Kitchen's Cookin' Jacket",
     handle: 'the-kitchens-cookin-jacket',
@@ -99,25 +118,6 @@ const PLACEHOLDER_PRODUCTS = [
       { id: 'v23', title: 'L', price: { amount: '34.00', currencyCode: 'USD' }, availableForSale: true },
       { id: 'v24', title: 'XL', price: { amount: '34.00', currencyCode: 'USD' }, availableForSale: true },
       { id: 'v25', title: 'XXL', price: { amount: '34.00', currencyCode: 'USD' }, availableForSale: true },
-    ],
-    tags: ['featured'],
-  },
-  {
-    id: 'put-that-sofa-tee',
-    title: 'Put That Ash In The Sofa Tee',
-    handle: 'put-that-sofa-tee',
-    description: '"Put That Ash In The Sofa" couple graphic tee. White oversized fit, premium cotton.',
-    priceRange: { minVariantPrice: { amount: '36.00', currencyCode: 'USD' } },
-    images: [
-      { url: '/images/put-that-sofa-tee-studio.png', altText: 'Put That Ash In The Sofa Tee - Studio' },
-      { url: '/images/put-that-sofa-tee.png', altText: 'Put That Ash In The Sofa Tee' },
-    ],
-    variants: [
-      { id: 'v26', title: 'S', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
-      { id: 'v27', title: 'M', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
-      { id: 'v28', title: 'L', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
-      { id: 'v29', title: 'XL', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
-      { id: 'v30', title: 'XXL', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },
     ],
     tags: ['featured'],
   },
