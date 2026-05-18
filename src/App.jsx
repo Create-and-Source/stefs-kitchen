@@ -412,7 +412,7 @@ function MusicSection() {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stefan-todd-628273407/club-dreams-ft-flawcee-suede&color=%239B5DE5&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stefan-todd-628273407/know-nobody-ft-suede&color=%239B5DE5&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             title="SoundCloud Player"
           />
         </div>
