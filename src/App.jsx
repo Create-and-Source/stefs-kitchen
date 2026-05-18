@@ -333,9 +333,9 @@ function FeaturedDrop({ products }) {
 /* ─── Collection Cards ─── */
 function CollectionCards() {
   const collections = [
-    { title: 'APPAREL', desc: 'Hoodies, tees, and more', image: '/images/IMG_0512.PNG', link: '/shop' },
+    { title: 'APPAREL', desc: 'Hoodies, tees, and more', image: '/images/kitchens-cookin-jacket.png', link: '/shop' },
     { title: 'ACCESSORIES', desc: 'Stickers, prints, extras', image: '/images/IMG_0523.PNG', link: '/shop' },
-    { title: 'MUSIC', desc: 'Stream on all platforms', image: '/images/IMG_0504.JPG', link: '/about' },
+    { title: 'MUSIC', desc: 'Stream on all platforms', image: '/images/too-blessed-tee-studio.png', link: '/about' },
   ];
 
   return (
