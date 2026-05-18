@@ -412,14 +412,14 @@ function MusicSection() {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stef-todd&color=%239B5DE5&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stefan-todd-628273407&color=%239B5DE5&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             title="SoundCloud Player"
           />
         </div>
       </Reveal>
       <Reveal delay={0.2}>
         <div className="music-platforms">
-          <a href="https://soundcloud.com/stef-todd" target="_blank" rel="noopener noreferrer" className="music-platform-link">
+          <a href="https://soundcloud.com/stefan-todd-628273407" target="_blank" rel="noopener noreferrer" className="music-platform-link">
             <Headphones size={20} />
             <span>SoundCloud</span>
           </a>
@@ -589,14 +589,14 @@ function Footer() {
           <div className="footer-col">
             <h4>FOLLOW</h4>
             <a href="https://www.tiktok.com/@stefisthechef" target="_blank" rel="noopener noreferrer">TikTok</a>
-            <a href="https://soundcloud.com/stef-todd" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+            <a href="https://soundcloud.com/stefan-todd-628273407" target="_blank" rel="noopener noreferrer">SoundCloud</a>
             <a href="https://www.instagram.com/stefan.toddbusiness/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <a href="https://www.youtube.com/@stefan.toddbusiness" target="_blank" rel="noopener noreferrer">YouTube</a>
           </div>
         </div>
         <div className="footer-socials">
           <a href="https://www.tiktok.com/@stefisthechef" target="_blank" rel="noopener noreferrer"><Music size={18} /></a>
-          <a href="https://soundcloud.com/stef-todd" target="_blank" rel="noopener noreferrer"><Headphones size={18} /></a>
+          <a href="https://soundcloud.com/stefan-todd-628273407" target="_blank" rel="noopener noreferrer"><Headphones size={18} /></a>
           <a href="https://www.instagram.com/stefan.toddbusiness/" target="_blank" rel="noopener noreferrer"><Camera size={18} /></a>
           <a href="https://www.youtube.com/@stefan.toddbusiness" target="_blank" rel="noopener noreferrer"><Tv size={18} /></a>
         </div>
@@ -778,7 +778,7 @@ function AboutPage() {
               Stef's Kitchen is where it all gets cooked up.
             </p>
             <div className="about-links">
-              <a href="https://soundcloud.com/stef-todd" target="_blank" rel="noopener noreferrer" className="btn-outline">
+              <a href="https://soundcloud.com/stefan-todd-628273407" target="_blank" rel="noopener noreferrer" className="btn-outline">
                 <Headphones size={16} /> SoundCloud
               </a>
               <a href="https://www.tiktok.com/@stefisthechef" target="_blank" rel="noopener noreferrer" className="btn-outline">
