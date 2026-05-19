@@ -322,6 +322,113 @@ function Footer() {
 
 /* ═══ PAGES ═══ */
 
+/* ─── Link In Bio Page ─── */
+function LinkInBioPage() {
+  return (
+    <div className="linktree-page">
+      <motion.div
+        className="linktree-container"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        {/* Profile */}
+        <div className="linktree-profile">
+          <div className="linktree-avatar">
+            <img src="/images/IMG_0503.JPG" alt="$tef the Chef" />
+          </div>
+          <h1 className="linktree-name">$TEF THE CHEF</h1>
+          <p className="linktree-bio">Rapper. Producer. Jingle King. Jackson, MS</p>
+          <p className="linktree-tagline">Too Blessed 2 Be Stressed</p>
+        </div>
+
+        {/* Social Icons */}
+        <div className="linktree-socials">
+          <a href="https://instagram.com/stefisthechef" target="_blank" rel="noopener noreferrer" className="linktree-social-icon" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+          </a>
+          <a href="https://tiktok.com/@stefisthechef" target="_blank" rel="noopener noreferrer" className="linktree-social-icon" aria-label="TikTok">
+            <Music size={20} />
+          </a>
+          <a href="https://youtube.com/@stefthechef222" target="_blank" rel="noopener noreferrer" className="linktree-social-icon" aria-label="YouTube">
+            <Play size={20} />
+          </a>
+          <a href="https://twitch.tv/stefisthechef" target="_blank" rel="noopener noreferrer" className="linktree-social-icon" aria-label="Twitch">
+            <Tv size={20} />
+          </a>
+          <a href="https://soundcloud.com/stefan-todd-628273407" target="_blank" rel="noopener noreferrer" className="linktree-social-icon" aria-label="SoundCloud">
+            <Headphones size={20} />
+          </a>
+        </div>
+
+        {/* Links */}
+        <div className="linktree-links">
+          <a href="/shop" className="linktree-link">
+            <span className="linktree-link-icon"><ShoppingBag size={18} /></span>
+            <span className="linktree-link-text">Stef's Kitchen Merch</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="/book" className="linktree-link">
+            <span className="linktree-link-icon"><Mic size={18} /></span>
+            <span className="linktree-link-text">Book A Jingle</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="https://soundcloud.com/stefan-todd-628273407" target="_blank" rel="noopener noreferrer" className="linktree-link">
+            <span className="linktree-link-icon"><Headphones size={18} /></span>
+            <span className="linktree-link-text">Listen on SoundCloud</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="https://twitch.tv/stefisthechef" target="_blank" rel="noopener noreferrer" className="linktree-link">
+            <span className="linktree-link-icon"><Tv size={18} /></span>
+            <span className="linktree-link-text">Watch on Twitch</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="https://youtube.com/@stefthechef222" target="_blank" rel="noopener noreferrer" className="linktree-link">
+            <span className="linktree-link-icon"><Play size={18} /></span>
+            <span className="linktree-link-text">YouTube</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="https://tiktok.com/@stefisthechef" target="_blank" rel="noopener noreferrer" className="linktree-link">
+            <span className="linktree-link-icon"><Music size={18} /></span>
+            <span className="linktree-link-text">TikTok</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="https://instagram.com/stefisthechef" target="_blank" rel="noopener noreferrer" className="linktree-link">
+            <span className="linktree-link-icon"><Camera size={18} /></span>
+            <span className="linktree-link-text">Instagram</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+          <a href="mailto:stefan.toddbusiness@gmail.com" className="linktree-link">
+            <span className="linktree-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <span className="linktree-link-text">Business Inquiries</span>
+            <ArrowRight size={14} className="linktree-link-arrow" />
+          </a>
+        </div>
+
+        {/* SoundCloud Embed */}
+        <div className="linktree-player">
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            frameBorder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stefan-todd-628273407/know-nobody-ft-suede&color=%239B5DE5&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"
+            title="SoundCloud Player"
+            style={{ borderRadius: 12 }}
+          />
+        </div>
+
+        <div className="linktree-footer">
+          <p>STEF'S KITCHEN &copy; {new Date().getFullYear()}</p>
+        </div>
+      </motion.div>
+    </div>
+  );
+}
+
 function HomePage({ products }) {
   const featured = products.filter(p => p.tags?.includes('featured'));
 
@@ -930,7 +1037,8 @@ export default function App() {
       <Header />
       <CartDrawer />
       <Routes>
-        <Route path="/" element={<HomePage products={products} />} />
+        <Route path="/" element={<LinkInBioPage />} />
+        <Route path="/home" element={<HomePage products={products} />} />
         <Route path="/shop" element={<ShopPage products={products} />} />
         <Route path="/product/:handle" element={<ProductPage products={products} />} />
         <Route path="/about" element={<AboutPage />} />
