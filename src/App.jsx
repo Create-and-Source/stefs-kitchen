@@ -491,7 +491,7 @@ function HomePage({ products }) {
 
       {/* FULL-WIDTH — Crew */}
       <section className="editorial-banner">
-        <img src="/images/crew-group-studio.png" alt="The whole crew wearing Stef's Kitchen" loading="lazy" />
+        <img src="/images/crew-studio-mixing.png" alt="The crew at the mixing board wearing Stef's Kitchen" loading="lazy" />
         <motion.div
           className="editorial-banner-text"
           initial={{ opacity: 0, y: 20 }}
