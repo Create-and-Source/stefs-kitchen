@@ -12,9 +12,9 @@
   --pink: #F15BB5;
   --pink-dim: #B03D82;
   --pink-glow: rgba(241, 91, 181, 0.3);
-  --white: #F0F0F0;
-  --white-dim: #AAAAAA;
-  --gray: #666666;
+  --white: #FFFFFF;
+  --white-dim: #CCCCCC;
+  --gray: #999999;
   --gray-dim: #333333;
   --gray-faint: #1A1A1A;
   --chrome: linear-gradient(135deg, #E8E8E8 0%, #B0B0B0 25%, #E0E0E0 50%, #A0A0A0 75%, #D0D0D0 100%);
