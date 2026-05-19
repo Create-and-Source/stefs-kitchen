@@ -186,6 +186,7 @@ const PLACEHOLDER_PRODUCTS = [
     priceRange: { minVariantPrice: { amount: '58.00', currencyCode: 'USD' } },
     images: [
       { url: '/images/smooth-ride-hoodie-cars.png', altText: 'Smooth Ride Hoodie' },
+      { url: '/images/smooth-ride-hoodie-frontback.png', altText: 'Smooth Ride Hoodie - Front & Back' },
     ],
     variants: [
       { id: 'v46', title: 'S', price: { amount: '58.00', currencyCode: 'USD' }, availableForSale: true },
@@ -258,6 +259,8 @@ const PLACEHOLDER_PRODUCTS = [
     priceRange: { minVariantPrice: { amount: '36.00', currencyCode: 'USD' } },
     images: [
       { url: '/images/sip-community-tee-cafe.png', altText: 'Sip On Community Tee - Cafe' },
+      { url: '/images/sip-community-tee-back.png', altText: 'Sip On Community Tee - Back' },
+      { url: '/images/sip-community-tee-mug.png', altText: 'Sip On Community Tee - With Mug' },
     ],
     variants: [
       { id: 'v66', title: 'S', price: { amount: '36.00', currencyCode: 'USD' }, availableForSale: true },

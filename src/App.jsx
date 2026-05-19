@@ -480,10 +480,10 @@ function HomePage({ products }) {
         <span className="purple">EUGHHH!</span> <span>&rarr;</span> <span className="filled">KEEP COOKIN'</span> <span>&rarr;</span> <span>$TEF THE CHEF</span> <span>&rarr;</span>
       </Marquee>
 
-      {/* SPREAD — Smooth Ride */}
+      {/* SPREAD — New Merch */}
       <section className="spread">
         <div className="spread-img">
-          <img src="/images/still-cookin-hoodie-studio.png" alt="Still Cookin' Hoodie" loading="lazy" />
+          <img src="/images/crew-group-studio.png" alt="The whole crew in Stef's Kitchen merch" loading="lazy" />
         </div>
         <motion.div
           className="spread-text"
@@ -512,16 +512,16 @@ function HomePage({ products }) {
           <img src="/images/too-blessed-tee-neonbar.png" alt="Too Blessed Tee" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/eughhh-neon-tee-club.png" alt="EUGHHH! Neon Tee" loading="lazy" />
+          <img src="/images/smooth-ride-hoodie-frontback.png" alt="Smooth Ride Hoodie Front & Back" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/bad-breath-hoodie-dock.png" alt="Bad Breath Hoodie" loading="lazy" />
+          <img src="/images/sip-community-tee-back.png" alt="Sip On Community Tee Back" loading="lazy" />
         </div>
         <div className="photo-grid-item tall">
           <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/too-blessed-tee-studio.png" alt="Too Blessed Tee" loading="lazy" />
+          <img src="/images/eughhh-neon-tee-club.png" alt="EUGHHH! Neon Tee" loading="lazy" />
         </div>
       </div>
 
