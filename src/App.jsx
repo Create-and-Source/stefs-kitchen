@@ -453,27 +453,40 @@ function HomePage({ products }) {
         </div>
       </section>
 
-      {/* SPREAD — The Catchphrase */}
-      <section className="spread spread-reverse">
+      {/* SIDE-BY-SIDE — EUGHHH + Community */}
+      <section className="editorial-pair">
         <motion.div
-          className="spread-text"
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          className="editorial-pair-item"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.6 }}
         >
-          <div className="spread-label">The Catchphrase</div>
-          <h2 className="spread-title">EUGHHH!</h2>
-          <p className="spread-body">
-            One word. That's all it takes. The sound that opens every video, closes every jingle, and lives rent-free in your head. The EUGHHH! tee is the uniform for anyone who's locked in.
-          </p>
-          <Link to="/product/eughhh-speaker-tee" className="spread-link">
-            Shop The Tee <ArrowRight size={14} />
+          <Link to="/product/eughhh-speaker-tee" className="editorial-pair-link">
+            <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Speaker Tee" loading="lazy" />
+            <div className="editorial-pair-caption">
+              <div className="spread-label">The Catchphrase</div>
+              <h3>EUGHHH!</h3>
+              <p>The sound that opens every video and lives rent-free in your head. The uniform for anyone who's locked in.</p>
+            </div>
           </Link>
         </motion.div>
-        <div className="spread-img">
-          <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Speaker Tee" loading="lazy" />
-        </div>
+        <motion.div
+          className="editorial-pair-item"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          <Link to="/product/sip-community-tee" className="editorial-pair-link">
+            <img src="/images/sip-community-tee-back.png" alt="Sip On Community Tee - Back" loading="lazy" />
+            <div className="editorial-pair-caption">
+              <div className="spread-label">The Message</div>
+              <h3>Sip On Community, Baby</h3>
+              <p>Good coffee, good people, good energy. Let's get up and go — do what you told.</p>
+            </div>
+          </Link>
+        </motion.div>
       </section>
 
       {/* FULL-WIDTH — Crew */}
@@ -488,29 +501,6 @@ function HomePage({ products }) {
         >
           <h2>The Kitchen Is A Family</h2>
           <p>Every piece was made to be worn by the people who show up — to the studio, to the stage, to each other. This isn't merch. It's a uniform.</p>
-        </motion.div>
-      </section>
-
-      {/* SPREAD — Community */}
-      <section className="spread">
-        <div className="spread-img">
-          <img src="/images/sip-community-tee-back.png" alt="Sip On Community Tee - Back" loading="lazy" />
-        </div>
-        <motion.div
-          className="spread-text"
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="spread-label">The Message</div>
-          <h2 className="spread-title">Sip On Community, Baby</h2>
-          <p className="spread-body">
-            "One cup gonna have you up and out that door. Let's get up and go — do what you told." It's not just a shirt, it's a morning reminder. Good coffee, good people, good energy.
-          </p>
-          <Link to="/product/sip-community-tee" className="spread-link">
-            Shop Community Tee <ArrowRight size={14} />
-          </Link>
         </motion.div>
       </section>
 
