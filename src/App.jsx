@@ -453,67 +453,77 @@ function HomePage({ products }) {
         </div>
       </section>
 
+      {/* PHOTO STRIP 1 */}
+      <div className="photo-grid">
+        <div className="photo-grid-item tall">
+          <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Speaker Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/sip-community-tee-cafe.png" alt="Sip On Community Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/smooth-ride-hoodie-cars.png" alt="Smooth Ride Hoodie" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item tall">
+          <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/kitchens-cookin-tee-club.png" alt="Kitchen's Cookin' Tee" loading="lazy" />
+        </div>
+      </div>
+
       {/* MARQUEE 2 */}
       <Marquee>
         <span className="purple">EUGHHH!</span> <span>&rarr;</span> <span className="filled">KEEP COOKIN'</span> <span>&rarr;</span> <span>$TEF THE CHEF</span> <span>&rarr;</span>
       </Marquee>
 
-      {/* LOOKBOOK */}
-      <section className="lookbook">
-        <div className="products-header">
-          <h2 className="products-title">The Lookbook</h2>
+      {/* SPREAD — Smooth Ride */}
+      <section className="spread">
+        <div className="spread-img">
+          <img src="/images/still-cookin-hoodie-studio.png" alt="Still Cookin' Hoodie" loading="lazy" />
         </div>
-        <div className="photo-grid">
-          <div className="photo-grid-item tall">
-            <img src="/images/too-blessed-tee-club.png" alt="Too Blessed 2 Be Stressed Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Speaker Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/sip-community-tee-cafe.png" alt="Sip On Community Baby Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/smooth-ride-hoodie-cars.png" alt="Smooth Ride Hoodie" loading="lazy" />
-          </div>
-          <div className="photo-grid-item tall">
-            <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/put-that-sofa-tee-woman.png" alt="Put That Sofa Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item tall">
-            <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/still-cookin-hoodie-studio.png" alt="Chef Stef Still Cookin' Hoodie" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/kitchens-cookin-tee-club.png" alt="Kitchen's Cookin' Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item tall">
-            <img src="/images/too-blessed-tee-neonbar.png" alt="Too Blessed Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/eughhh-neon-tee-club.png" alt="EUGHHH! Neon Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/bad-breath-hoodie-dock.png" alt="Bad Breath Kickback Hoodie" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/put-that-sofa-tee.png" alt="Put That Sofa Tee" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/too-blessed-tee-studio.png" alt="Too Blessed Tee Studio" loading="lazy" />
-          </div>
-          <div className="photo-grid-item">
-            <img src="/images/bad-breath-hoodie-studio.png" alt="Bad Breath Hoodie Studio" loading="lazy" />
-          </div>
-        </div>
+        <motion.div
+          className="spread-text"
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="spread-label">Fresh Out The Kitchen</div>
+          <h2 className="spread-title">New Merch Just Dropped</h2>
+          <p className="spread-body">
+            EUGHHH! tees, Smooth Ride hoodies, Crocs tees, Community tees — the kitchen is fully stocked. Premium weight, street-ready, blessed energy only.
+          </p>
+          <Link to="/shop" className="spread-link">
+            Shop New Arrivals <ArrowRight size={14} />
+          </Link>
+        </motion.div>
       </section>
+
+      {/* PHOTO STRIP 2 */}
+      <div className="photo-grid">
+        <div className="photo-grid-item">
+          <img src="/images/put-that-sofa-tee-woman.png" alt="Put That Sofa Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item tall">
+          <img src="/images/too-blessed-tee-neonbar.png" alt="Too Blessed Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/eughhh-neon-tee-club.png" alt="EUGHHH! Neon Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/bad-breath-hoodie-dock.png" alt="Bad Breath Hoodie" loading="lazy" />
+        </div>
+        <div className="photo-grid-item tall">
+          <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/too-blessed-tee-studio.png" alt="Too Blessed Tee" loading="lazy" />
+        </div>
+      </div>
 
       {/* SPREAD — Jingle */}
       <section className="spread spread-reverse">
