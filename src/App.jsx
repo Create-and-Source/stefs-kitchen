@@ -458,27 +458,62 @@ function HomePage({ products }) {
         <span className="purple">EUGHHH!</span> <span>&rarr;</span> <span className="filled">KEEP COOKIN'</span> <span>&rarr;</span> <span>$TEF THE CHEF</span> <span>&rarr;</span>
       </Marquee>
 
-      {/* PHOTO GRID */}
-      <div className="photo-grid">
-        <div className="photo-grid-item tall">
-          <img src="/images/too-blessed-tee-club.png" alt="Too Blessed" loading="lazy" />
+      {/* LOOKBOOK */}
+      <section className="lookbook">
+        <div className="products-header">
+          <h2 className="products-title">The Lookbook</h2>
         </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0521.PNG" alt="Studio" loading="lazy" />
+        <div className="photo-grid">
+          <div className="photo-grid-item tall">
+            <img src="/images/too-blessed-tee-club.png" alt="Too Blessed 2 Be Stressed Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Speaker Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/sip-community-tee-cafe.png" alt="Sip On Community Baby Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/smooth-ride-hoodie-cars.png" alt="Smooth Ride Hoodie" loading="lazy" />
+          </div>
+          <div className="photo-grid-item tall">
+            <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/put-that-sofa-tee-woman.png" alt="Put That Sofa Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item tall">
+            <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/still-cookin-hoodie-studio.png" alt="Chef Stef Still Cookin' Hoodie" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/kitchens-cookin-tee-club.png" alt="Kitchen's Cookin' Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item tall">
+            <img src="/images/too-blessed-tee-neonbar.png" alt="Too Blessed Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/eughhh-neon-tee-club.png" alt="EUGHHH! Neon Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/bad-breath-hoodie-dock.png" alt="Bad Breath Kickback Hoodie" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/put-that-sofa-tee.png" alt="Put That Sofa Tee" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/too-blessed-tee-studio.png" alt="Too Blessed Tee Studio" loading="lazy" />
+          </div>
+          <div className="photo-grid-item">
+            <img src="/images/bad-breath-hoodie-studio.png" alt="Bad Breath Hoodie Studio" loading="lazy" />
+          </div>
         </div>
-        <div className="photo-grid-item">
-          <img src="/images/bad-breath-hoodie-dock.png" alt="Bad Breath Hoodie" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/put-that-sofa-tee.png" alt="Put That Sofa Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item tall">
-          <img src="/images/chef-stef-tee-city.png" alt="Chef Stef Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/too-blessed-tee-studio.png" alt="Studio session" loading="lazy" />
-        </div>
-      </div>
+      </section>
 
       {/* SPREAD — Jingle */}
       <section className="spread spread-reverse">
@@ -695,20 +730,32 @@ function AboutPage() {
         <div className="photo-grid-item">
           <img src="/images/IMG_0503.JPG" alt="NYC" loading="lazy" />
         </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0504.JPG" alt="Club Dreams" loading="lazy" />
+        <div className="photo-grid-item tall">
+          <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
         </div>
         <div className="photo-grid-item">
           <img src="/images/IMG_0509.PNG" alt="Studio" loading="lazy" />
         </div>
         <div className="photo-grid-item">
+          <img src="/images/still-cookin-hoodie-studio.png" alt="Still Cookin' Hoodie" loading="lazy" />
+        </div>
+        <div className="photo-grid-item tall">
+          <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket NYC" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
+          <img src="/images/sip-community-tee-cafe.png" alt="Sip On Community Tee" loading="lazy" />
+        </div>
+        <div className="photo-grid-item">
           <img src="/images/IMG_0521.PNG" alt="Empire studio" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/kitchens-cookin-jacket.png" alt="Jacket" loading="lazy" />
+          <img src="/images/smooth-ride-hoodie-cars.png" alt="Smooth Ride Hoodie" loading="lazy" />
         </div>
         <div className="photo-grid-item">
-          <img src="/images/bad-breath-hoodie-studio.png" alt="Hoodie" loading="lazy" />
+          <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
         </div>
       </div>
     </>

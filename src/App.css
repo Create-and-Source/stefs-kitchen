@@ -697,6 +697,15 @@
   box-shadow: 0 0 15px var(--purple-glow);
 }
 
+/* ═══ LOOKBOOK ═══ */
+.lookbook {
+  padding: 80px 0 0;
+}
+
+.lookbook .products-header {
+  padding-bottom: 40px;
+}
+
 /* ═══ PHOTO GRID ═══ */
 .photo-grid {
   display: grid;
