@@ -453,37 +453,48 @@ function HomePage({ products }) {
         </div>
       </section>
 
-      {/* PHOTO STRIP 1 */}
-      <div className="photo-grid">
-        <div className="photo-grid-item tall">
+      {/* SPREAD — The Catchphrase */}
+      <section className="spread spread-reverse">
+        <motion.div
+          className="spread-text"
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="spread-label">The Catchphrase</div>
+          <h2 className="spread-title">EUGHHH!</h2>
+          <p className="spread-body">
+            One word. That's all it takes. The sound that opens every video, closes every jingle, and lives rent-free in your head. The EUGHHH! tee is the uniform for anyone who's locked in.
+          </p>
+          <Link to="/product/eughhh-speaker-tee" className="spread-link">
+            Shop The Tee <ArrowRight size={14} />
+          </Link>
+        </motion.div>
+        <div className="spread-img">
           <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Speaker Tee" loading="lazy" />
         </div>
-        <div className="photo-grid-item">
-          <img src="/images/sip-community-tee-cafe.png" alt="Sip On Community Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/smooth-ride-hoodie-cars.png" alt="Smooth Ride Hoodie" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item tall">
-          <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/kitchens-cookin-tee-club.png" alt="Kitchen's Cookin' Tee" loading="lazy" />
-        </div>
-      </div>
+      </section>
 
-      {/* MARQUEE 2 */}
-      <Marquee>
-        <span className="purple">EUGHHH!</span> <span>&rarr;</span> <span className="filled">KEEP COOKIN'</span> <span>&rarr;</span> <span>$TEF THE CHEF</span> <span>&rarr;</span>
-      </Marquee>
+      {/* FULL-WIDTH — Crew */}
+      <section className="editorial-banner">
+        <img src="/images/crew-group-studio.png" alt="The whole crew wearing Stef's Kitchen" loading="lazy" />
+        <motion.div
+          className="editorial-banner-text"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <h2>The Kitchen Is A Family</h2>
+          <p>Every piece was made to be worn by the people who show up — to the studio, to the stage, to each other. This isn't merch. It's a uniform.</p>
+        </motion.div>
+      </section>
 
-      {/* SPREAD — New Merch */}
+      {/* SPREAD — Community */}
       <section className="spread">
         <div className="spread-img">
-          <img src="/images/crew-group-studio.png" alt="The whole crew in Stef's Kitchen merch" loading="lazy" />
+          <img src="/images/sip-community-tee-back.png" alt="Sip On Community Tee - Back" loading="lazy" />
         </div>
         <motion.div
           className="spread-text"
@@ -492,38 +503,110 @@ function HomePage({ products }) {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <div className="spread-label">Fresh Out The Kitchen</div>
-          <h2 className="spread-title">New Merch Just Dropped</h2>
+          <div className="spread-label">The Message</div>
+          <h2 className="spread-title">Sip On Community, Baby</h2>
           <p className="spread-body">
-            EUGHHH! tees, Smooth Ride hoodies, Crocs tees, Community tees — the kitchen is fully stocked. Premium weight, street-ready, blessed energy only.
+            "One cup gonna have you up and out that door. Let's get up and go — do what you told." It's not just a shirt, it's a morning reminder. Good coffee, good people, good energy.
           </p>
-          <Link to="/shop" className="spread-link">
-            Shop New Arrivals <ArrowRight size={14} />
+          <Link to="/product/sip-community-tee" className="spread-link">
+            Shop Community Tee <ArrowRight size={14} />
           </Link>
         </motion.div>
       </section>
 
-      {/* PHOTO STRIP 2 */}
-      <div className="photo-grid">
-        <div className="photo-grid-item">
-          <img src="/images/put-that-sofa-tee-woman.png" alt="Put That Sofa Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item tall">
-          <img src="/images/too-blessed-tee-neonbar.png" alt="Too Blessed Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
+      {/* MARQUEE 2 */}
+      <Marquee>
+        <span className="purple">EUGHHH!</span> <span>&rarr;</span> <span className="filled">KEEP COOKIN'</span> <span>&rarr;</span> <span>$TEF THE CHEF</span> <span>&rarr;</span>
+      </Marquee>
+
+      {/* SPREAD — Smooth Ride */}
+      <section className="spread spread-reverse">
+        <motion.div
+          className="spread-text"
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="spread-label">The Hoodie</div>
+          <h2 className="spread-title">Smooth Ride, All The Time</h2>
+          <p className="spread-body">
+            "Who is that? Make the whole block shake." Front, back, and down both sleeves — this hoodie talks before you do. Heavyweight tan pullover built for late nights and long drives.
+          </p>
+          <Link to="/product/smooth-ride-hoodie" className="spread-link">
+            Shop Smooth Ride <ArrowRight size={14} />
+          </Link>
+        </motion.div>
+        <div className="spread-img">
           <img src="/images/smooth-ride-hoodie-frontback.png" alt="Smooth Ride Hoodie Front & Back" loading="lazy" />
         </div>
-        <div className="photo-grid-item">
-          <img src="/images/sip-community-tee-back.png" alt="Sip On Community Tee Back" loading="lazy" />
+      </section>
+
+      {/* FULL-WIDTH — Crocs + Portrait */}
+      <section className="editorial-duo">
+        <motion.div
+          className="editorial-duo-item"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
+          <div className="editorial-duo-caption">
+            <h3>Comfy Is A Lifestyle</h3>
+            <p>"I cannot leave the crib without my Crocs." If you know, you know.</p>
+          </div>
+        </motion.div>
+        <motion.div
+          className="editorial-duo-item"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.15 }}
+        >
+          <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
+          <div className="editorial-duo-caption">
+            <h3>Late Nights, Good Vibes</h3>
+            <p>The Chef Stef portrait tee. Neon glow, starry energy. Made for the night shift.</p>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* PULLQUOTE 2 */}
+      <motion.section
+        className="pullquote"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <p className="pullquote-text">
+          "Every piece has a story behind it. A session, a late night, a feeling. When you wear it, you carry that with you."
+        </p>
+      </motion.section>
+
+      {/* SPREAD — The Jacket */}
+      <section className="spread">
+        <div className="spread-img">
+          <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket NYC" loading="lazy" />
         </div>
-        <div className="photo-grid-item tall">
-          <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/eughhh-neon-tee-club.png" alt="EUGHHH! Neon Tee" loading="lazy" />
-        </div>
-      </div>
+        <motion.div
+          className="spread-text"
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="spread-label">The Statement Piece</div>
+          <h2 className="spread-title">NYC At 2AM</h2>
+          <p className="spread-body">
+            Wet pavement, yellow cabs, neon reflections. The Kitchen's Cookin' jacket was designed for moments like this — when you're walking through the city and the city is watching back.
+          </p>
+          <Link to="/product/the-kitchens-cookin-jacket" className="spread-link">
+            Shop The Jacket <ArrowRight size={14} />
+          </Link>
+        </motion.div>
+      </section>
 
       {/* SPREAD — Jingle */}
       <section className="spread spread-reverse">
