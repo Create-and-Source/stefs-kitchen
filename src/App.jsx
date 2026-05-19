@@ -891,38 +891,6 @@ function AboutPage() {
         </div>
       </section>
 
-      <div className="photo-grid">
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0503.JPG" alt="NYC" loading="lazy" />
-        </div>
-        <div className="photo-grid-item tall">
-          <img src="/images/chef-stef-portrait-tee-night.png" alt="Chef Stef Portrait Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0509.PNG" alt="Studio" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/still-cookin-hoodie-studio.png" alt="Still Cookin' Hoodie" loading="lazy" />
-        </div>
-        <div className="photo-grid-item tall">
-          <img src="/images/kitchens-cookin-jacket-street.png" alt="Kitchen's Cookin' Jacket NYC" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/eughhh-speaker-tee-studio.png" alt="EUGHHH! Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/sip-community-tee-cafe.png" alt="Sip On Community Tee" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/IMG_0521.PNG" alt="Empire studio" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/smooth-ride-hoodie-cars.png" alt="Smooth Ride Hoodie" loading="lazy" />
-        </div>
-        <div className="photo-grid-item">
-          <img src="/images/my-crocs-tee-bar.png" alt="My Crocs Tee" loading="lazy" />
-        </div>
-      </div>
     </>
   );
 }
