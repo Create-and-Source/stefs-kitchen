@@ -363,12 +363,12 @@ function LinkInBioPage() {
 
         {/* Links */}
         <div className="linktree-links">
-          <a href="/shop" className="linktree-link">
+          <a href="/shop" target="_blank" rel="noopener noreferrer" className="linktree-link">
             <span className="linktree-link-icon"><ShoppingBag size={18} /></span>
             <span className="linktree-link-text">Stef's Kitchen Merch</span>
             <ArrowRight size={14} className="linktree-link-arrow" />
           </a>
-          <a href="/book" className="linktree-link">
+          <a href="/book" target="_blank" rel="noopener noreferrer" className="linktree-link">
             <span className="linktree-link-icon"><Mic size={18} /></span>
             <span className="linktree-link-text">Book A Jingle</span>
             <ArrowRight size={14} className="linktree-link-arrow" />
