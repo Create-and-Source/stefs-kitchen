@@ -1653,6 +1653,50 @@
   font-weight: 500;
 }
 
+.linktree-merch-slider {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--gray-dim);
+  padding: 12px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: pointer;
+}
+
+.linktree-merch-slider::-webkit-scrollbar { display: none; }
+
+.linktree-merch-slider:hover {
+  border-color: var(--purple);
+  box-shadow: 0 8px 30px rgba(155, 93, 229, 0.15);
+}
+
+.linktree-merch-track {
+  display: flex;
+  gap: 10px;
+}
+
+.linktree-merch-item {
+  flex: 0 0 90px;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-raised);
+}
+
+.linktree-merch-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .linktree-merch-item { flex: 0 0 75px; height: 75px; }
+}
+
 @media (max-width: 480px) {
   .linktree-page { padding: 100px 16px 40px; }
   .linktree-avatar { width: 90px; height: 90px; }

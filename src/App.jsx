@@ -323,7 +323,7 @@ function Footer() {
 /* ═══ PAGES ═══ */
 
 /* ─── Link In Bio Page ─── */
-function LinkInBioPage() {
+function LinkInBioPage({ products }) {
   return (
     <div className="linktree-page">
       <motion.div
@@ -368,6 +368,17 @@ function LinkInBioPage() {
             <span className="linktree-link-text">Stef's Kitchen Merch</span>
             <ArrowRight size={14} className="linktree-link-arrow" />
           </a>
+          {products.length > 0 && (
+            <a href="/home" target="_blank" rel="noopener noreferrer" className="linktree-merch-slider">
+              <div className="linktree-merch-track">
+                {products.map((p) => (
+                  <div key={p.id} className="linktree-merch-item">
+                    <img src={p.images[0]?.url} alt={p.title} />
+                  </div>
+                ))}
+              </div>
+            </a>
+          )}
           <a href="/book" target="_blank" rel="noopener noreferrer" className="linktree-link">
             <span className="linktree-link-icon"><Mic size={18} /></span>
             <span className="linktree-link-text">Book A Jingle</span>
@@ -980,7 +991,7 @@ export default function App() {
       <Header />
       <CartDrawer />
       <Routes>
-        <Route path="/" element={<LinkInBioPage />} />
+        <Route path="/" element={<LinkInBioPage products={products} />} />
         <Route path="/home" element={<HomePage products={products} />} />
         <Route path="/shop" element={<ShopPage products={products} />} />
         <Route path="/product/:handle" element={<ProductPage products={products} />} />
